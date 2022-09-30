@@ -1,0 +1,16 @@
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+checking for onig_region_memsize() in ruby.h... yes
+creating Makefile
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-7rovmr sitelibdir\=./.gem.20220930-8087-7rovmr clean
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-7rovmr sitelibdir\=./.gem.20220930-8087-7rovmr
+compiling strscan.c
+linking shared-object strscan.so
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/strscan-3.0.4/ext/strscan
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-7rovmr sitelibdir\=./.gem.20220930-8087-7rovmr install
+/usr/bin/install -c -m 0755 strscan.so ./.gem.20220930-8087-7rovmr

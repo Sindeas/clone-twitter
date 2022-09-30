@@ -1,0 +1,13 @@
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/site_ruby/3.1.0 extconf.rb
+creating Makefile
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-iuz5k2 sitelibdir\=./.gem.20220930-8087-iuz5k2 clean
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-iuz5k2 sitelibdir\=./.gem.20220930-8087-iuz5k2
+make: Nothing to be done for 'all'.
+
+current directory: /home/sindeas/twitter-clone/vendor/bundle/ruby/3.1.0/gems/json-2.6.2/ext/json
+make DESTDIR\= sitearchdir\=./.gem.20220930-8087-iuz5k2 sitelibdir\=./.gem.20220930-8087-iuz5k2 install
