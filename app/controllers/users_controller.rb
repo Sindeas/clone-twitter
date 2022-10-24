@@ -11,6 +11,14 @@ class UsersController < ApplicationController
     end
   end
 
+
+
+  
+  def profile
+    @user = User.find(params[:id])
+    redirect_to not_found_path unless @user
+  end
+
   private
 
   def user_params

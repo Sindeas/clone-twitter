@@ -1,3 +1,4 @@
+
 $(".feeds.index").ready(function(){
 
   var currentUser;
@@ -19,7 +20,7 @@ $(".feeds.index").ready(function(){
     console.log(error);
     // window.location.replace("/");
   });
-
+  
   function profileCardChanger(username) {
     $('.user-field .username').text(username);
     $('.user-field .screenName').text('@'+username);
@@ -93,6 +94,9 @@ $(".feeds.index").ready(function(){
     });
   }
 
+
+
+
   $(document).on('click', '.navbar-brand', function() {
     getTweetsAndPost();
     profileCardChanger(currentUser);
@@ -132,15 +136,20 @@ $(".feeds.index").ready(function(){
     });
   }
 
+
+
   $(document).on('click', '.tweet-username', function() {
     getUserTweetsAndPost($(this).text());
     profileCardChanger($(this).text());
+
+ 
   });
 
   $(document).on('click', '.username', function() {
     getUserTweetsAndPost($(this).text());
     profileCardChanger($(this).text());
   });
+
 
   function searchTweetsAndPost(keyword) {
     searchTweets(keyword, function(tweets){

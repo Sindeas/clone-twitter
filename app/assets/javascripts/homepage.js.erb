@@ -6,6 +6,7 @@ $(".homepage.index").ready(function(){
     authenticate(function(response) {
       if(response.authenticated) {
         window.location.replace("/feeds");
+        
       }
     });
   };
